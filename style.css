@@ -18,15 +18,15 @@ body {
 .resim-kutusu {
   display: flex;
   justify-content: center;
-  margin-top: 50px; /* Yukarıdan boşluk */
+  margin-top: 20px; /* Yukarıdan boşluk */
 }
 
 .resim-kutusu img {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 50%; /* Daire yapar */
-  border: 3px solid #2222; /* Çerçeve */
+  border-radius: 30%; /* Daire yapar */
+  border: 10px solid #f17ea1; /* Çerçeve */
 }
 #profilResmi {
   transition: transform 0.3s ease; /* animasyon */
